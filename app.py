@@ -98,8 +98,8 @@ def logout():
     return redirect(url_for('index'))
 
 @app.errorhandler(404)
-def page_not_found(error):
-    return render_template('page_not_found.tpl'), 404
+def pagenotfound(error):
+    return render_template('pagenotfound.html'), 404
 
 @app.errorhandler(405)
 def method_not_alloved(error):
