@@ -3,12 +3,12 @@
         <meta charset="UTF-8">
         <title>Document</title>
         <link rel="stylesheet" href="{{ url_for('static',filename='still.css')}}" >
-        <link> href="/stylesheets/still.css" rel="stylesheet" type="text/css" />
-        {% block refresh %} {% endblock %}
+        <link href="/stylesheets/still.css" rel="stylesheet" type="text/css" />
     </head>
     <body>
         <header>
             <h1>vörulisti</h1>
+            {% include "head.tpl" %}
         </header>
         <main>
             {% block content %}

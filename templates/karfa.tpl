@@ -40,7 +40,7 @@
             <input type="email" name="email" required placeholder="E-mail">
         </label>
         <label>símanúmer:
-            <input type="text" name="simi" required pattern="^(354 )?\d{3}[ -]?\d[4]$" placeholder="1234567890">
+            <input type="text" name="simi" required pattern="^(354 )?\d{3}[ -]?\d[4]$" placeholder="1234567">
         </label>
         <input type="hidden" name="samtals" value="{{samtals}}">
         <input type="submit" value="kaupa vörur">

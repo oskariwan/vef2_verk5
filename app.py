@@ -106,4 +106,4 @@ def method_not_alloved(error):
     return render_template('method_not_alloved.tpl'), 405
 
 if __name__ == '__main__':
-    app.run()
+    app.run()   
